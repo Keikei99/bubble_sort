@@ -13,8 +13,9 @@ fn main() {
         .collect();
     // 调用函数
     // bubble_sort_1(&mut v);
+    // println!("bubble_sort_1: The result is {:?}", v);
     bubble_sort_2(&mut v);
-    println!("The result is {:?}", v);
+    println!("bubble_sort_2: The result is {:?}", v);
 }
 
 // 基础的冒泡排序
